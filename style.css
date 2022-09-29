@@ -13,8 +13,6 @@
 }
 
 
-
-
 /* header */
 
 header{
@@ -50,10 +48,7 @@ main{
 
 .card-video{
     flex-basis: 14%;
-    position: relative;
-    /* height: 100px; */
- 
-   
+    position: relative;   
 }
 
 .card-video img{
@@ -76,7 +71,6 @@ main{
 .svg-video{
     width: 14px;
     fill: white;
-
 }
 
 /* footer */
@@ -103,21 +97,24 @@ footer{
     display: flex;
     align-items: center;
     padding: 0 10px;
-
 }
 
 .icon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0  10px ;
-    
-    
+    margin: 0  10px ;    
 }
 
 .svg-footer{
     width: 20px;
     fill: white;
+    align-items: center;
+}
+
+.svg-footer-green{
+    width: 24px;
+    fill: green;
     align-items: center;
 }
 
@@ -131,20 +128,14 @@ footer{
         width: 10px;
         fill: white;}    
 
-
-
 p{
     color: white;
     font-size: 12px;
     margin: 5px 0;
 }
 
-.end-mt{
-    
+.end-mt{    
     color: red;
-    
-
-
 }
 
 .ft-dx{
