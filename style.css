@@ -9,22 +9,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: black;
 }
 
-header,footer{
-    flex-basis: 5%;
-    background-color: aqua;
-}
 
-main{
-    flex-basis: 88%;
-    background-color: blueviolet;
-}
+
+
+/* header */
 
 header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex-basis: 5%;
 }
 
 .svg-header{
@@ -39,5 +36,97 @@ header{
     background-color: rgb(69, 60, 60);
     color: white;
     font-size: 12px ;
+}
+
+/* main */
+main{
+    flex-basis: 85%; 
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.card-video{
+    flex-basis: 14%;
+    position: relative;
+    /* height: 100px; */
+ 
+   
+}
+
+.card-video img{
+    width: 100%;
+    height: 100px;
+    object-fit:cover;
+    
+}
+
+.audio{
+    padding: 3px 3px;
+    background-color: rgba(47, 38, 38, 0.2);
+    width: 50%;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    font-size: 12px;
+}
+
+.svg-video{
+    width: 14px;
+    fill: white;
 
 }
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 10%;
+}
+
+.ft-sx, .ft-dx{
+    flex-basis: 20%;
+}
+
+.ft-cn{
+    flex-basis: 58%;
+}
+
+.button-mute{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.mute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0  10px ;
+    
+}
+
+.svg-footer{
+    width: 20px;
+    fill: white;
+    align-items: center;
+}
+
+.svg-selection{
+        width: 10px;
+        fill: white;}    
+
+
+
+p{
+    color: white;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
