@@ -90,22 +90,23 @@ footer{
     background-color: rgb(56, 53, 53);
 }
 
-.ft-sx, .ft-dx{
+.ft-sx{
     flex-basis: 20%;
+    display: flex;
 }
 
 .ft-cn{
     flex-basis: 58%;
 }
 
-.button-mute{
+.button{
     display: flex;
     align-items: center;
     padding: 0 10px;
 
 }
 
-.mute{
+.icon{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,6 +116,12 @@ footer{
 
 .svg-footer{
     width: 20px;
+    fill: white;
+    align-items: center;
+}
+
+.svg-cam{
+    width: 28px;
     fill: white;
     align-items: center;
 }
@@ -130,4 +137,23 @@ p{
     font-size: 12px;
     margin: 5px 0;
 }
+
+.end-mt{
+    
+    color: red;
+    
+
+
+}
+
+.ft-dx{
+    justify-content: center;
+    background-color: gray;
+    height: 100%;
+    align-items: center;
+    flex-basis: 8%;
+    display: flex;
+}
+
+
 
