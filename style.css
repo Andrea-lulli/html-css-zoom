@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.conteiner-web-app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header,footer{
+    flex-basis: 5%;
+    background-color: aqua;
+}
+
+main{
+    flex-basis: 88%;
+    background-color: blueviolet;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.svg-header{
+    width: 10px;
+    fill: white;
+}
+
+.speaker-view{
+    padding: 5px 5px;
+    margin: 0 3px;
+    border-radius: 8px;
+    background-color: rgb(69, 60, 60);
+    color: white;
+    font-size: 12px ;
+
+}
