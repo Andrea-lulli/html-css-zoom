@@ -91,12 +91,13 @@ footer{
 }
 
 .ft-sx{
-    flex-basis: 20%;
+    flex-basis: 18%;
     display: flex;
 }
 
 .ft-cn{
-    flex-basis: 58%;
+    flex-basis: 52%;
+    display: flex;
 }
 
 .button{
