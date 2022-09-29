@@ -86,7 +86,8 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 10%;
+    flex-basis: 7%;
+    background-color: rgb(56, 53, 53);
 }
 
 .ft-sx, .ft-dx{
