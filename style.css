@@ -33,6 +33,7 @@ header{
     background-color: rgb(61, 60, 60);
     color: white;
     font-size: 12px ;
+    cursor: pointer;
 }
 
 /* main */
@@ -97,13 +98,15 @@ footer{
     display: flex;
     align-items: center;
     padding: 0 10px;
+    
 }
 
 .icon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0  10px ;    
+    margin: 0  10px ;
+    cursor: pointer;    
 }
 
 .svg-footer{
@@ -126,7 +129,10 @@ footer{
 
 .svg-selection{
         width: 10px;
-        fill: white;}    
+        cursor: pointer;
+        fill: white;
+    }
+
 
 p{
     color: white;
@@ -145,6 +151,7 @@ p{
     align-items: center;
     flex-basis: 8%;
     display: flex;
+    cursor: pointer;
 }
 
 
